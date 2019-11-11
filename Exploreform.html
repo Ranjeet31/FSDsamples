@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Form page</title>
+    </head>
+    <body>
+        <h2>Registration form</h2>
+        <form action="" method="get" class="form-example">
+        <label for="frstname">First name: </label>
+        <input type="text" name="frstname" id="fname" value="Firstname" required>
+        <label for="lstname">Last name: </label>
+        <input type="text" name="lstname" id="lname" value="Lastname" required><br>
+        <input type="radio" name="gender" value="male">Male<input type="radio" name="gender" value="female">Female<input type="radio" name="gender" value="other"> Other<br>
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" required>
+        <label for="password">Password: </label>
+        <input type="password" name="password" id="passwd" minlength=5 maxlength=8 required><br>
+        <label for="birthday">Birthday: </label>
+        <select name="birthmonth" id="bmonth">
+            <option value="">Month</option>
+            <option value="jan">jan</option>
+            <option value="feb">feb</option>
+            <option value="mar">mar</option>
+            <option value="april">april</option>
+            <option value="May">may</option>
+            <option value="jun">jun</option>
+        </select>
+        <select name="birthday" id="bday">
+            <option value="">Day</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+        </select>
+        <select name="birthyear" id="byear">
+            <option value="">Year</option>
+            <option value="1990">1990</option>
+            <option value="1991">1991</option>
+            <option value="1992">1992</option>
+            <option value="1993">1993</option>
+            <option value="1994">1994</option>
+            <option value="1995">1995</option>
+        </select><br>
+        <label for="term">I agree to term and condition</label>
+        <input type="checkbox" name="term" id="term"><br>
+        <input type="submit" value="submit">
+        </form>
+    </body>
+</html>
